@@ -49,7 +49,7 @@
     </header>
 
     {{-- main --}}
-    <main>
+    <main id="site_main">
         @yield('content')
     </main>
     

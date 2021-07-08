@@ -53,6 +53,60 @@ body {
      object-position: top;
 }
 
+#site_main {
+  background-color: #1c1c1c;
+}
+#site_main .container {
+  padding-top: 3rem;
+  position: relative;
+  text-align: center;
+}
+#site_main .container .title {
+  position: absolute;
+  background-color: #0282F9;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  top: -30px;
+  left: 15%;
+  font-weight: 600;
+  font-size: 1.7rem;
+}
+#site_main .container .fumetti {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  text-align: left;
+}
+#site_main .container .fumetti .fumetto {
+  margin: 0.5rem;
+}
+#site_main .container .fumetti .fumetto img {
+  height: 200px;
+  width: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+#site_main .container .fumetti .fumetto h3 {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 400;
+  font-size: 1rem;
+  max-width: 170px;
+  margin-top: 0.7rem;
+}
+#site_main .container button {
+  background-color: #0282F9;
+  padding: 0.7rem 2.5rem;
+  color: white;
+  border: none;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
 #site_footer {
   position: relative;
   overflow: hidden;

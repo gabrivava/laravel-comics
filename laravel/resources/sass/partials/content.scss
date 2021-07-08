@@ -1,0 +1,51 @@
+#site_main {
+    background-color: #1c1c1c;
+    .container {
+        padding-top: 3rem;
+        position: relative;
+        text-align: center;
+        .title {
+            position: absolute;
+            background-color: $blue_logo;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            top: -30px;
+            left: 15%;
+            font-weight: 600;
+            font-size: 1.7rem;
+        }
+        .fumetti {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 70%;
+            margin: auto;
+            text-align: left;
+            .fumetto {
+                margin: 0.5rem;
+                img {
+                    height: 200px;
+                    width: 200px;
+                    object-fit: cover;
+                    object-position: top;
+                }
+                h3 {
+                    text-transform: uppercase;
+                    color: white;
+                    font-weight: 400;
+                    font-size: 1rem;
+                    max-width: 170px;
+                    margin-top: 0.7rem;
+                }
+            }
+        }
+        button {
+            background-color: $blue_logo;
+            padding:0.7rem 2.5rem;
+            color: white;
+            border: none;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+    }
+}
