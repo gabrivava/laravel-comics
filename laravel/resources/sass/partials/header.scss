@@ -1,0 +1,16 @@
+#site_header {
+    .top_header {
+        background-color: $blue_logo;
+        color: white;
+        div {
+            width: 70%;
+            margin: auto;
+            display: flex;
+            justify-content: flex-end;
+            span {
+                font-size: 12px;
+                padding: 0.4rem 1rem;
+            }
+        }
+    }
+}

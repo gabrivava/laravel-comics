@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aqua;
+}
+
+#site_header .top_header {
+  background-color: #0282F9;
+  color: white;
+}
+#site_header .top_header div {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+#site_header .top_header div span {
+  font-size: 12px;
+  padding: 0.4rem 1rem;
+}
