@@ -5,12 +5,13 @@
 }
 
 body {
-  background-color: aqua;
+  font-family: "Roboto", sans-serif;
 }
 
 #site_header .top_header {
   background-color: #0282F9;
   color: white;
+  font-weight: 500;
 }
 #site_header .top_header div {
   width: 70%;
@@ -21,4 +22,108 @@ body {
 #site_header .top_header div span {
   font-size: 12px;
   padding: 0.4rem 1rem;
+}
+#site_header .nav {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+#site_header .nav nav {
+  display: flex;
+}
+#site_header .nav nav a {
+  text-decoration: none;
+  color: black;
+  margin: 0 1rem;
+  font-weight: 500;
+}
+#site_header .nav input {
+  border: none;
+  border-bottom: 2px solid #0282F9;
+}
+#site_header > img {
+  width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+#site_footer {
+  position: relative;
+  overflow: hidden;
+}
+#site_footer .background {
+  width: 100%;
+}
+#site_footer .background .bg {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+#site_footer .background .logo {
+  position: absolute;
+  top: -10%;
+  right: 15%;
+  width: 600px;
+  z-index: -1;
+}
+#site_footer .elenco {
+  line-height: 1.5rem;
+  width: 500px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-left: 15%;
+  margin-top: 3rem;
+}
+#site_footer .elenco h2 {
+  color: white;
+  padding: 1rem 0;
+}
+#site_footer .elenco ul li {
+  list-style: none;
+  color: grey;
+}
+#site_footer .cookies {
+  margin-top: 2rem;
+  color: grey;
+  margin-left: 15%;
+  width: 40%;
+  padding-bottom: 2rem;
+}
+#site_footer .registrati {
+  background-color: #303030;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 15%;
+}
+#site_footer .registrati button {
+  background-color: #303030;
+  color: white;
+  border: 2px solid #0282F9;
+  font-size: 1.2rem;
+  padding: 0.7rem;
+}
+#site_footer .registrati .social {
+  display: flex;
+  align-items: center;
+}
+#site_footer .registrati .social span {
+  color: #0282F9;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+#site_footer .registrati .social img {
+  margin: 0 0.5rem;
 }
