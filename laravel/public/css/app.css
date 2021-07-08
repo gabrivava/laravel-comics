@@ -8,6 +8,9 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+#site_header {
+  height: 560px;
+}
 #site_header .top_header {
   background-color: #0282F9;
   color: white;
@@ -105,6 +108,27 @@ body {
   border: none;
   margin-top: 2rem;
   margin-bottom: 1rem;
+}
+#site_main .banda {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #0282F9;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+#site_main .banda > div {
+  display: flex;
+  align-items: center;
+}
+#site_main .banda > div img {
+  width: 70px;
+  height: 70px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-right: 1rem;
 }
 
 #site_footer {
