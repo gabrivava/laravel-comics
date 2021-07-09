@@ -32,7 +32,7 @@
             <img src="{{asset('img/dc-logo.png')}}" alt="">
             <nav>
                 <a href="#">CHARACTERS</a>
-                <a href="#">COMICS</a>
+                <a href="{{ route('fumetti') }}">COMICS</a>
                 <a href="#">MOVIES</a>
                 <a href="#">TV</a>
                 <a href="#">GAMES</a>

@@ -24,7 +24,7 @@ Route::get('/fumetti', function () {
     $fumetti = config('fumetti.data');
     return view('comics.index', compact('fumetti'));
 
-})->name('home');
+})->name('fumetti');
 
 route::get('fumetti/{id}', function ($id) {
 

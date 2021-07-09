@@ -133,6 +133,76 @@ body {
      object-fit: contain;
   margin-right: 1rem;
 }
+#site_main .blue {
+  background-color: #0282F9;
+  height: 80px;
+  position: relative;
+}
+#site_main .blue .copertina {
+  position: absolute;
+  top: -240px;
+  left: 20%;
+}
+#site_main .blue .copertina > img {
+  border: 1px solid white;
+}
+#site_main .white {
+  background-color: white;
+  padding: 3rem 20%;
+  margin: auto;
+  display: flex;
+}
+#site_main .white .left {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  z-index: 2;
+}
+#site_main .white .left h3 {
+  color: #003F5E;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+#site_main .white .left > div {
+  margin-top: 2rem;
+  display: flex;
+  border-bottom: 1px solid #357739;
+}
+#site_main .white .left > div button {
+  background-color: #55BA59;
+  padding: 0.9rem 1.4rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+}
+#site_main .white .left > div button span {
+  color: #BAFD9C;
+}
+#site_main .white .left > div button span .fumetto_price {
+  color: white;
+}
+#site_main .white .left > div .price {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  border-right: 1px solid #357739;
+}
+#site_main .white .left > div .checkAvailable {
+  color: white;
+  width: 30%;
+}
+#site_main .white .left > p {
+  margin-top: 1rem;
+  line-height: 1.5rem;
+}
+#site_main .white .right {
+  width: 30%;
+}
+#site_main .white .right h5 {
+  text-align: right;
+  color: #555555;
+  font-size: 1rem;
+}
 
 #site_footer {
   position: relative;
