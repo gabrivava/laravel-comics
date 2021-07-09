@@ -1,0 +1,46 @@
+.talentESpecs {
+    background-color: $grey_bg;
+    display: flex;
+    border-top: 1px solid $border_grey;
+    padding: 0 20%;
+    padding-bottom: 3rem;
+    &>div {
+        width: 50%;
+        margin: 0 1rem;
+        h4 {
+            color: #003F5E;
+            padding: 2rem 0;
+            font-size: 1.5rem;
+            font-weight: 500;
+            
+        }
+        &>div {
+            border-top: 1px solid $border_grey;
+            padding: 1rem 0;
+            display: flex;
+            h5 {
+                font-size: 0.9rem;
+                width: 40%;
+                font-weight: 400;
+                color: #003F5E;
+            }
+            p {
+                width: 60%;
+                font-size: 0.9rem;
+                &>span {
+                    color: #00A9D9;
+                }
+            }
+            .series {
+                text-transform: uppercase;
+                color: #00A9D9;
+            }
+            span {
+                font-size: 0.9rem;
+            }
+        }
+        .last {
+            border-bottom: 1px solid $border_grey;
+        }
+    }
+}

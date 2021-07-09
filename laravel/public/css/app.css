@@ -60,7 +60,6 @@ body {
   background-color: #1c1c1c;
 }
 #site_main .container {
-  padding-top: 3rem;
   position: relative;
   text-align: center;
 }
@@ -85,6 +84,9 @@ body {
 #site_main .container .fumetti .fumetto {
   margin: 0.5rem;
   width: 15%;
+}
+#site_main .container .fumetti .fumetto a {
+  text-decoration: none;
 }
 #site_main .container .fumetti .fumetto img {
   min-width: 180px;
@@ -198,10 +200,85 @@ body {
 #site_main .white .right {
   width: 30%;
 }
+#site_main .white .right img {
+  margin-left: 10%;
+}
 #site_main .white .right h5 {
   text-align: right;
   color: #555555;
   font-size: 1rem;
+}
+
+.talentESpecs {
+  background-color: #F6F6F6;
+  display: flex;
+  border-top: 1px solid #E3E3E3;
+  padding: 0 20%;
+  padding-bottom: 3rem;
+}
+.talentESpecs > div {
+  width: 50%;
+  margin: 0 1rem;
+}
+.talentESpecs > div h4 {
+  color: #003F5E;
+  padding: 2rem 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.talentESpecs > div > div {
+  border-top: 1px solid #E3E3E3;
+  padding: 1rem 0;
+  display: flex;
+}
+.talentESpecs > div > div h5 {
+  font-size: 0.9rem;
+  width: 40%;
+  font-weight: 400;
+  color: #003F5E;
+}
+.talentESpecs > div > div p {
+  width: 60%;
+  font-size: 0.9rem;
+}
+.talentESpecs > div > div p > span {
+  color: #00A9D9;
+}
+.talentESpecs > div > div .series {
+  text-transform: uppercase;
+  color: #00A9D9;
+}
+.talentESpecs > div > div span {
+  font-size: 0.9rem;
+}
+.talentESpecs > div .last {
+  border-bottom: 1px solid #E3E3E3;
+}
+
+.buy {
+  background-color: #F6F6F6;
+  border-top: 1px solid #E3E3E3;
+}
+.buy .container {
+  width: 70%;
+  margin: auto;
+  border-left: 1px solid #E3E3E3;
+  display: flex;
+}
+.buy .container > div {
+  width: 25%;
+  height: 100%;
+  border-right: 1px solid #E3E3E3;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem;
+}
+.buy .container > div h4 {
+  color: #9F9F9F;
+}
+.buy .container > div img {
+  filter: brightness(60%);
+  height: 70px;
 }
 
 #site_footer {

@@ -1,7 +1,6 @@
 #site_main {
     background-color: #1c1c1c;
     .container {
-        padding-top: 3rem;
         position: relative;
         text-align: center;
         .title {
@@ -24,6 +23,9 @@
             .fumetto {
                 margin: 0.5rem;
                 width: 15%;
+                a {
+                    text-decoration: none;
+                }
                 img {
                     min-width: 180px;
                     min-height: 180px;
@@ -135,6 +137,9 @@
         }
         .right {
             width: 30%;
+            img {
+                margin-left: 10%;
+            }
             h5 {
                 text-align: right;
                 color: #555555;
@@ -143,3 +148,5 @@
         }
     }
 }
+@import 'partials/talent_specs';
+@import 'partials/buy';

@@ -29,7 +29,10 @@
 
         <div class="nav">
             {{-- logo img --}}
-            <img src="{{asset('img/dc-logo.png')}}" alt="">
+            <a href="{{ route('home') }}">
+                <img src="{{asset('img/dc-logo.png')}}" alt="">
+            </a>
+            
             <nav>
                 <a href="#">CHARACTERS</a>
                 <a href="{{ route('fumetti') }}">COMICS</a>
@@ -63,7 +66,6 @@
             <div>
                 <h2>DC COMICS</h2>
                 <ul>
-                    <a href={{-- "{{ route() }}" --}}></a>
                     <li>Characters</li>
                     <li>Comics</li>
                     <li>Movies</li>

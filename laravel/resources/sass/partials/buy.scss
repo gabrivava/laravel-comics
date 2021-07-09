@@ -1,0 +1,25 @@
+.buy {
+    background-color: $grey_bg;
+    border-top: 1px solid $border_grey;
+    .container {
+        width: 70%;
+        margin: auto;
+        border-left: 1px solid $border_grey;
+        display: flex;
+        &>div {
+            width: 25%;
+            height: 100%;
+            border-right: 1px solid $border_grey;
+            display: flex;
+            justify-content: space-between;
+            padding: 0.8rem;
+            h4 {
+                color: $grey_text;
+            }
+            img {
+                filter: brightness(60%);
+                height: 70px;
+            }
+        }
+    }
+}
