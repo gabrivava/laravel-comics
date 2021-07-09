@@ -1,6 +1,7 @@
 #site_main {
     background-color: #1c1c1c;
-    .container {
+    &>.container {
+        padding-top: 3rem;
         position: relative;
         text-align: center;
         .title {

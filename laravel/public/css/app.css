@@ -59,11 +59,12 @@ body {
 #site_main {
   background-color: #1c1c1c;
 }
-#site_main .container {
+#site_main > .container {
+  padding-top: 3rem;
   position: relative;
   text-align: center;
 }
-#site_main .container .title {
+#site_main > .container .title {
   position: absolute;
   background-color: #0282F9;
   color: white;
@@ -73,7 +74,7 @@ body {
   font-weight: 600;
   font-size: 1.7rem;
 }
-#site_main .container .fumetti {
+#site_main > .container .fumetti {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -81,14 +82,14 @@ body {
   margin: auto;
   text-align: left;
 }
-#site_main .container .fumetti .fumetto {
+#site_main > .container .fumetti .fumetto {
   margin: 0.5rem;
   width: 15%;
 }
-#site_main .container .fumetti .fumetto a {
+#site_main > .container .fumetti .fumetto a {
   text-decoration: none;
 }
-#site_main .container .fumetti .fumetto img {
+#site_main > .container .fumetti .fumetto img {
   min-width: 180px;
   min-height: 180px;
   max-height: 200px;
@@ -98,7 +99,7 @@ body {
   -o-object-position: top;
      object-position: top;
 }
-#site_main .container .fumetti .fumetto h3 {
+#site_main > .container .fumetti .fumetto h3 {
   text-transform: uppercase;
   color: white;
   font-weight: 400;
@@ -106,7 +107,7 @@ body {
   max-width: 170px;
   margin-top: 0.7rem;
 }
-#site_main .container button {
+#site_main > .container button {
   background-color: #0282F9;
   padding: 0.7rem 2.5rem;
   color: white;
