@@ -63,6 +63,7 @@
             <div>
                 <h2>DC COMICS</h2>
                 <ul>
+                    <a href={{-- "{{ route() }}" --}}></a>
                     <li>Characters</li>
                     <li>Comics</li>
                     <li>Movies</li>

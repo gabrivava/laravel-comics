@@ -14,10 +14,27 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    /*  return view('fumetti', compact('fumetti')) */
+    return view('home');
+})->name('home');
+
+/* Route fumetti */
+Route::get('/fumetti', function () {
+
+    $fumetti = config('fumetti.data');
+    return view('comics.index', compact('fumetti'));
+
+})->name('home');
+
+route::get('fumetti/{id}', function ($id) {
+
     $fumetti = config('fumetti.data');
 
-    $data = [
-        'fumetti' => $fumetti
-    ];
-    return view('home', $data);
-})->name('home');
+    if (is_numeric($id) && $id < count($fumetti) && $id >= 0) {
+        $fumetto = $fumetti[$id];
+        return view('comics.show', compact('fumetto'));
+    } else {
+        abort(404);
+    }
+    // ddd($fumetti[$id]);
+})->name('fumetto');

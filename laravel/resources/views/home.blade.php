@@ -2,13 +2,13 @@
 
 @section('title', 'Home Comics')
 
-@section('content')
+{{-- @section('content')
     <section class="container">
         <div class="title">CURRENT SERIES</div>
         <div class="fumetti">
             @foreach ($fumetti as $fumetto)
 
-                <div class="fumetto">
+                <div class="fumetto" href="">
                     <img src="{{$fumetto['thumb']}}" alt="">
                     <h3>{{$fumetto['series']}}</h3>
                 </div>    
@@ -39,4 +39,4 @@
             <span>DC POWER VISA</span>
         </div>
     </div>
-@endsection
+@endsection --}}
